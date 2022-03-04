@@ -8,3 +8,5 @@ data <- read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/hear
                               "exerciseangina", "oldpeak", "slope", "nmajorvessels", "thalassemia", "diagnosis")) %>%
 mutate(diagnosis = as_factor(diagnosis))
 glimpse(data)
+
+#I can edit now
