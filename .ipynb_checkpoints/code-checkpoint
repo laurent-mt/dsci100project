@@ -1,0 +1,10 @@
+library(dplyr)
+library(tidyverse)
+library(readr)
+library(tidymodels)
+library(recipes)
+data <- read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data",
+                 col_names = c("age", "sex", "chestpaintype", "restbps", "cholesterolserum", "fastingbs", "restecg", "maxheartrate",
+                              "exerciseangina", "oldpeak", "slope", "nmajorvessels", "thalassemia", "diagnosis")) %>%
+mutate(diagnosis = as_factor(diagnosis))
+glimpse(data)
