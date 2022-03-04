@@ -1,5 +1,5 @@
 # DSCI 100 project proposal
-1. Title:
+1. Title: Prediction of Heart Disease based on Cleveland's Dataset
 2. Introduction:
 Provide some relevant background information on the topic so that someone unfamiliar with it will be prepared to understand the rest of your proposal. Clearly state the question you will try to answer with your project. Identify and describe the dataset that will be used to answer the question.
 3. Preliminary exploratory data analysis:
